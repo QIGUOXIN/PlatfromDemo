@@ -4,15 +4,15 @@ apply plugin: 'com.huawei.agconnect'
 android {
     signingConfigs {
         release {
-            storeFile file('F:\\keystore\\zongyi')
+            storeFile file('F:\\keystore\\key')
             storePassword '146286'
-            keyAlias 'zongyi'
+            keyAlias 'key'
             keyPassword '146286'
         }
         debug {
-            storeFile file('F:\\keystore\\zongyi')
+            storeFile file('F:\\keystore\\key')
             storePassword '146286'
-            keyAlias 'zongyi'
+            keyAlias 'key'
             keyPassword '146286'
         }
     }
