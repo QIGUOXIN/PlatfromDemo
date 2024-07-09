@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <application  android:name="com.myflavoradapter.HuweiApplication">
+<!--        <provider-->
+<!--            android:name="com.huawei.hms.update.provider.UpdateProvider"-->
+<!--            android:authorities="${applicationId}.hms.update.provider"-->
+<!--            android:exported="false"-->
+<!--            android:grantUriPermissions="true">-->
+<!--        </provider>-->
+
+<!--        <provider-->
+<!--            android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"-->
+<!--            android:authorities="${applicationId}.updateSdk.fileProvider"-->
+<!--            tools:replace="android:authorities"-->
+<!--            android:exported="false"-->
+<!--            android:grantUriPermissions="true">-->
+<!--        </provider>-->
+
+    </application>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</manifest>
